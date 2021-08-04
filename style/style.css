@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+    color: white;
+}
+.slider{
+    width: 100%;
+    margin: 0 auto;
+}
+.slider__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    background: rgb(26, 26, 58);
+}
+.slider__controls {
+    display: flex;
+    justify-content: center;
+}
+
+.slider__controls button {
+    background: purple;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    font-size: 24px;
+    font-family: arial;
+    text-transform: uppercase;
+}
+
+.slider__controls button:first-of-type{
+    margin-right: 30px;
+}
+
+
